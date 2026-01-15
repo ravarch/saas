@@ -62,15 +62,15 @@
 		"sonner": "^2.0.7",
 		"tailwind-merge": "^3.4.0",
 		"vaul": "^1.1.2",
-		"pg": "^8.17.1",
+		"@cloudflare/realtimekit-react": "latest",
+		"@cloudflare/realtimekit-react-ui": "latest",
+		"@cloudflare/realtimekit": "latest",
 		"zod": "^4.3.5"
 	},
 	"devDependencies": {
 		"@eslint/eslintrc": "^3",
 		"@tailwindcss/postcss": "^4",
 		"@types/node": "^20.19.29",
-		"@types/pg": "^8.16.0",
-		"@types/pg-pool": "^2.0.7",
 		"@types/react": "^19",
 		"@types/react-dom": "^19",
 		"eslint": "^9",
