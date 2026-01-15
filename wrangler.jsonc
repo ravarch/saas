@@ -32,9 +32,15 @@
 			"service": "saas"
 		}
 	],
-	"observability": {
-		"enabled": true
-	}
+  "observability": {
+    "logs": {
+      "enabled": true,
+      "invocation_logs": true
+    },
+    "traces": {
+      "enabled": true
+    }
+  }
 	/**
 	 * Smart Placement
 	 * https://developers.cloudflare.com/workers/configuration/smart-placement/#smart-placement
